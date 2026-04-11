@@ -1,0 +1,10 @@
+{
+  "name": "patil-project-root",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "cd \"PATIL PROJECT\" && npm run dev",
+    "build": "cd \"PATIL PROJECT\" && npm run build",
+    "install": "cd \"PATIL PROJECT\" && npm install"
+  }
+}

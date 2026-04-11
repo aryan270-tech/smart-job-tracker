@@ -1,0 +1,16 @@
+import { Outlet } from 'react-router-dom';
+import Sidebar from './Sidebar';
+import './Layout.css';
+
+const Layout = () => {
+    return (
+        <div className="layout-container">
+            <Sidebar />
+            <main className="main-content">
+                <Outlet /> {/* ✅ CRITICAL */}
+            </main>
+        </div>
+    );
+};
+
+export default Layout;
