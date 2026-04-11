@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -13,7 +13,7 @@ import Jobs from './pages/Jobs';
 function App() {
   return (
     <ApplicationProvider>
-      <BrowserRouter>
+      <HashRouter>
 
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -28,7 +28,7 @@ function App() {
         </Routes>
 
         <ToastContainer />
-      </BrowserRouter>
+      </HashRouter>
     </ApplicationProvider>
   );
 }
